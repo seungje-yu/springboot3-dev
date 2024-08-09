@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: springboot-dev
+  sql:
+    init:
+      mode: always
+  jpa:
+    show-sql: true # ???????
+    properties:
+      hibernate:
+        format_sql: true
+    #??? ?? ? data.sql??
+    defer-datasource-initialization: true
